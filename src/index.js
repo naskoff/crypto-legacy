@@ -1,1 +1,1 @@
-require('crypto');
+import * as crypto from 'crypto'
