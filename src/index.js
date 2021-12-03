@@ -1,1 +1,3 @@
-import * as crypto from 'crypto'
+var crypto = require('crypto');
+
+exports.crypto = crypto;
