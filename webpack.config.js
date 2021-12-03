@@ -13,9 +13,8 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'crypto.js',
-		library: 'crypto',
-		libraryTarget: 'umd',
+		library: 'lib',
 		globalObject: 'this',
-		umdNamedDefine: true
+		libraryTarget: 'umd',
 	}
 };

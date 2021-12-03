@@ -1,3 +1,1 @@
-var crypto = require('crypto');
-
-exports.crypto = crypto;
+export const crypto = require('crypto');
