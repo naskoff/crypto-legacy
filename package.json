@@ -1,0 +1,36 @@
+{
+  "name": "@icard/crypto-legacy",
+  "version": "1.0.0",
+  "description": "Crypto UMD Plugin",
+  "main": "./dist/crypto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlatinhristov/crypto-legacy.git"
+  },
+  "keywords": [
+    "crypto",
+    "nodejs",
+    "module",
+    "umd"
+  ],
+  "author": "Zlatin Hristov <zlatin.hristov@softavis.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zlatinhristov/crypto-legacy/issues"
+  },
+  "homepage": "https://github.com/zlatinhristov/crypto-legacy#readme",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "raw-loader": "^4.0.2",
+    "stream": "0.0.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
