@@ -13,7 +13,7 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'crypto.js',
-		library: 'loadScriptAsync',
+		library: 'crypto',
 		libraryTarget: 'umd',
 		globalObject: 'this',
 		umdNamedDefine: true
